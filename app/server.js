@@ -4,7 +4,7 @@ var express = require("express");
 var bodyParser = require("body-parser");
 var path = require("path");
 // information required by database
-var friend = require("./data/friends.js");
+var friends = require("./data/friends.js");
 //express and port 
 var app = express();
 var PORT = process.env.PORT || 8080; 
