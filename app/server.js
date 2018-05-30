@@ -7,7 +7,7 @@ var path = require("path");
 var friends = require("./data/friends.js");
 //express and port 
 var app = express();
-var PORT = process.env.PORT || 8080; 
+var PORT = process.env.PORT || 3000; 
 // static content with out it it will not work
 app.use(express.static("app/public"));
 //express
